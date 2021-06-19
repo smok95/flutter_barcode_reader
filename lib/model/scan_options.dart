@@ -1,3 +1,4 @@
+// ignore: import_of_legacy_library_into_null_safe
 import '../gen/protos/protos.pb.dart';
 import '../model/android_options.dart';
 
@@ -34,8 +35,5 @@ class ScanOptions {
       "flash_on": "Flash on",
       "flash_off": "Flash off",
     },
-  })  : assert(restrictFormat != null),
-        assert(useCamera != null),
-        assert(useCamera >= -1),
-        assert(android != null);
+  }) : assert(useCamera >= -1);
 }
