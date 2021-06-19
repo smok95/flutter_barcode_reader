@@ -1,6 +1,6 @@
 ## v3.1.0 - 2021-06-19
 ### Changed
-- migrated null-safety
+- migrate null-safety
 
 ## v3.0.1 - 2020-05-08
 
